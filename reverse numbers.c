@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main()
 {
-	int n,rev=0,d,temp;
+	int n,rev=0,d;
 	printf("enter n value");
 	scanf("%d",&n);
-	temp=n;
 	while(n>0)
 	{
 		d=n%10;
@@ -12,7 +11,6 @@ int main()
 		n=n/10;
 	}
 	printf("reverse=%d",rev);
-	
-
 	return 0;
 }
+
