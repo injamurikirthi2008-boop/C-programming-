@@ -8,6 +8,7 @@
  	temp=a;
  	a=b;
  	b=temp;
- 	printf("after swap a=%d b=%d",a,b);
+ 	printf(" after swap a=%d b=%d",a,b);
  	return 0;
  }
+
